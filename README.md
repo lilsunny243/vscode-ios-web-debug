@@ -47,6 +47,9 @@ Make sure you have Homebrew installed, and run the following command to install 
 brew install ios-webkit-debug-proxy
 ```
 
+#### iOS Device
+On your iOS device then go to `Settings > Safari > Advanced`, and enable the `Web Inspector` option.
+
 ## Using the debugger
 
 When your launch config is set up, you can debug your project! Pick a launch config from the dropdown on the Debug pane in Code. Press the play button or F5 to start.
