@@ -56,17 +56,17 @@
                 "runtime": "node",
                 "initialConfigurations": [
                     {
-                        "name": "Navigate to current project on an iOS device",
+                        "name": "iOS - launch localhost",
                         "type": "ios",
                         "request": "launch",
                         "port": 9222,
-                        "url": "index.html",
+                        "url": "http://localhost:8080",
                         "webRoot": "${workspaceRoot}",
                         "deviceName": "*",
                         "tunnelPort": 8080
                     },
                     {
-                        "name": "Navigate to url on an iOS device",
+                        "name": "iOS - launch mysite.com",
                         "type": "ios",
                         "request": "launch",
                         "port": 9222,
@@ -75,10 +75,11 @@
                         "deviceName": "*"
                     },
                     {
-                        "name": "Attach to an iOS device",
+                        "name": "iOS - attach to dev.domain.com",
                         "type": "ios",
                         "request": "attach",
                         "port": 9222,
+                        "url": "http://dev.domain.com/",
                         "webRoot": "${workspaceRoot}",
                         "deviceName": "*"
                     }
