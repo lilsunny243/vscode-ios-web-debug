@@ -15,6 +15,8 @@
   <a href="https://github.com/microsoft/vscode-ios-web-debug/releases"><img src="https://img.shields.io/github/release/Microsoft/vscode-ios-web-debug.svg" alt="Release"></a>
 </p>
 
+**Notice** This debugger is currently not actively maintained, and we recommend you using [remotedebug-ios-webkit-adaptor](https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter) together with VS Code, a guide can be read here https://medium.com/@auchenberg/hello-remotedebug-ios-webkit-adapter-debug-safari-and-ios-webviews-from-anywhere-2a8553df7465.
+
 The VS Code iOS Web Debugger allows to debug your JavaScript code running in Safari on iOS devices (and iOS Simulators) from VS Code both on **Windows and Mac** without addtional tools.
 
 ![](https://cdn.rawgit.com/Microsoft/vscode-ios-web-debug/master/.readme/demo.gif)
